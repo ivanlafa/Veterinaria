@@ -54,16 +54,15 @@ section {
   padding: .8rem 2.8rem;
   border-radius: 5rem;
   border-top-left-radius: 0;
-  border: 0.2rem solid #130f40;
+  border: 0.2rem solid #1e0f40;
   cursor: pointer;
   background: none;
-  color: #130f40;
+  color: #400f0f;
   font-size: 1.7rem;
   overflow: hidden;
   z-index: 0;
   position: relative;
 }
-
 .btn::before {
   content: '';
   position: absolute;
@@ -71,7 +70,7 @@ section {
   left: 0;
   height: 100%;
   width: 100%;
-  background: #130f40;
+  background: #3d94ac;
   z-index: -1;
   -webkit-transition: .2s linear;
   transition: .2s linear;
@@ -797,4 +796,23 @@ section {
     width: 90%;
   }
 }
+
+/* estilos.css */
+
+/* Estilos por defecto */
+body {
+	background-color: white;
+	color: black;
+}
+
+.btn-dark, .btn-light {
+	color: white;
+}
+
+/* Estilos para el modo oscuro */
+body.dark-mode {
+	background-color: #222;
+	color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
