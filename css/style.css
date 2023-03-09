@@ -49,12 +49,13 @@ section {
 }
 
 .btn {
+  border-radius: 1000px;
   display: inline-block;
   margin-top: 1rem;
   padding: .8rem 2.8rem;
   border-radius: 5rem;
   border-top-left-radius: 0;
-  border: 0.2rem solid #1e0f40;
+  border: 0.2rem solid #400f0f;
   cursor: pointer;
   background: none;
   color: #400f0f;
@@ -70,7 +71,7 @@ section {
   left: 0;
   height: 100%;
   width: 100%;
-  background: #3d94ac;
+  background: #3d87ac;
   z-index: -1;
   -webkit-transition: .2s linear;
   transition: .2s linear;
@@ -460,7 +461,7 @@ section {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+    object-fit: cover;
 }
 
 .shop .box-container .box .icons {
@@ -656,7 +657,8 @@ section {
 }
 
 .contact form .btn:hover {
-  background: #130f40;
+  background: #2d9499;
+  border-radius: 1000px;
 }
 
 .contact form h3 {
@@ -795,24 +797,6 @@ section {
   .header .login-form {
     width: 90%;
   }
-}
-
-/* estilos.css */
-
-/* Estilos por defecto */
-body {
-	background-color: white;
-	color: black;
-}
-
-.btn-dark, .btn-light {
-	color: white;
-}
-
-/* Estilos para el modo oscuro */
-body.dark-mode {
-	background-color: #222;
-	color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
